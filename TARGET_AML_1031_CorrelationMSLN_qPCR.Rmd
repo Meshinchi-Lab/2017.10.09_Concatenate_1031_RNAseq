@@ -1,0 +1,21 @@
+---
+title: "MSLN Correlation"
+output: html_document
+---
+
+```{r setup}
+library(knitr)
+knitr::opts_chunk$set(tidy.opts=list(width.cutoff=50),tidy=TRUE, fig.align='center', fig.height = 8, fig.width = 10)
+knitr::opts_knit$set(root.dir = '~/RNA_seq_Analysis/2017.10.09_Concatenate_1031_RNAseq/')
+```
+
+
+```{r message=FALSE}
+library(dplyr)
+library(magrittr)
+library(ggplot2)
+library(stringr)
+library(reshape2)
+getwd()
+```
+
